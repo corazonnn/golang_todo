@@ -1,0 +1,11 @@
+# github.com/google/uuid v1.2.0
+## explicit
+github.com/google/uuid
+# github.com/mattn/go-sqlite3 v1.14.7
+## explicit
+github.com/mattn/go-sqlite3
+# gopkg.in/go-ini/ini.v1 v1.62.0
+## explicit
+gopkg.in/go-ini/ini.v1
+# gopkg.in/ini.v1 v1.62.0
+## explicit

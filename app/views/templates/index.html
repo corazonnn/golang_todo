@@ -1,0 +1,15 @@
+{{define "content"}}
+UserName:
+{{.Name}}
+<!--userが渡ってきてるから.Nameでuser.Nameになる-->
+<h1>Sample TodoApp</h1>
+<p>[<a href="/todos/new">Create</a>]</p>
+<hr>
+
+{{range .Todos}}
+<div>{{.Content}}</div>
+<p><a href="/todos/edit/{{.ID}}">EDIT</a></p>
+<p><a href="/todos/delete/{{.ID}}">DELETE</a></p>
+<hr>
+{{end}}
+{{end}}
